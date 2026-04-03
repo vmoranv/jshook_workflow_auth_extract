@@ -1,0 +1,6 @@
+name: auth-extract
+description: JSHook workflow for auth-extract
+author: vmoranv
+tags:
+  - workflow
+  - auth-extract

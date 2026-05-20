@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@jshookmcp/extension-sdk':
-        specifier: ^0.3.0
-        version: 0.3.0(zod@4.3.6)
+        specifier: ^0.3.2
+        version: 0.3.2(zod@4.3.6)
     devDependencies:
       '@types/node':
         specifier: ^25.3.0
@@ -27,8 +27,8 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@jshookmcp/extension-sdk@0.3.0':
-    resolution: {integrity: sha512-G+PR/s7B+LdGmn1mOMT1XC6C5yEDqQJjqCIFDwVOh6T0+Ev5Y6xg+cH80kAyCEPNJG5LG43w891oFDR+Zsv50g==}
+  '@jshookmcp/extension-sdk@0.3.2':
+    resolution: {integrity: sha512-dYL5OSyrJBUeWIlS3+KfPuv68r87hCgI1d6zE/SFKH0v+ueIB1tNmRwOOse9Roc/ehbpTBM5RMjR9Lx0fQXMcA==}
     engines: {node: '>=20.0.0'}
 
   '@modelcontextprotocol/sdk@1.29.0':
@@ -112,8 +112,8 @@ packages:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
     engines: {node: '>= 0.8'}
 
-  dotenv@17.3.1:
-    resolution: {integrity: sha512-IO8C/dzEb6O3F9/twg6ZLXz164a2fhTnEWb95H23Dm4OuN+92NmEAlTrupP9VW6Jm3sO26tQlqyvyi4CsnY9GA==}
+  dotenv@17.4.2:
+    resolution: {integrity: sha512-nI4U3TottKAcAD9LLud4Cb7b2QztQMUEfHbvhTH09bqXTxnSie8WnjPALV/WMCrJZ6UV/qHJ6L03OqO3LcdYZw==}
     engines: {node: '>=12'}
 
   dunder-proto@1.0.1:
@@ -412,10 +412,10 @@ snapshots:
     dependencies:
       hono: 4.12.9
 
-  '@jshookmcp/extension-sdk@0.3.0(zod@4.3.6)':
+  '@jshookmcp/extension-sdk@0.3.2(zod@4.3.6)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.3.6)
-      dotenv: 17.3.1
+      dotenv: 17.4.2
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - supports-color
@@ -514,7 +514,7 @@ snapshots:
 
   depd@2.0.0: {}
 
-  dotenv@17.3.1: {}
+  dotenv@17.4.2: {}
 
   dunder-proto@1.0.1:
     dependencies:
